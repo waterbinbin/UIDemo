@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <totalcount>2713</totalcount>
+    <count>5</count>
+    <user_list>
+        <user>
+            <uid>3</uid>
+            <username>test</username>
+            <groupid>7</groupid>
+            <credit>782</credit>
+            <experience>1639</experience>
+            <viewnum>58</viewnum>
+            <friendnum>10</friendnum>
+            <lastactivity>1373622455</lastactivity>
+            <headimage>/my/headimage.php?uid=3</headimage>
+            <realname>王路飞</realname>
+        </user>
+
+        <user>
+            <uid>2459</uid>
+            <username>清风</username>
+            <groupid>6</groupid>
+            <credit>283</credit>
+            <experience>306</experience>
+            <viewnum>33</viewnum>
+            <friendnum>0</friendnum>
+            <lastactivity>0</lastactivity>
+            <headimage>/my/headimage.php?uid=2495</headimage>
+            <realname></realname>
+        </user>
+
+    </user_list>
+</root>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:readme.txt">
+   </FileRef>
+   <FileRef
+      location = "group:DuiduipengGame/DuiduipengGame.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AdvancedAnimation/AdvancedAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NavigationAnimation/NavigationAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIViewAnimation/UIViewAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SDWebImage/SDWebImage.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MPMoviePlayerViewController/MPMoviePlayerViewController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AVAudioPlay/AVAudioPlay.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AFNetWork/AFNetWork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSOperation/NSOperation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSThread/NSThread.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSURLConnect/NSURLConnect.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Sqlite/Sqlite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XML/XML.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSON/JSON.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITableView/UITableView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSNotificationCenter/NSNotificationCenter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISearchController/UISearchController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISearchBar&amp;AddressBookUI/UISearchBar&amp;AddressBookUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Multi-interface/Multi-interface.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSUerDefaults/NSUerDefaults.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UICollectionView/UICollectionView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIPickerView/UIPickerView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PictureWall/PictureWall.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITabBarController/UITabBarController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NavigationBar&amp;ToolBar/NavigationBar&amp;ToolBar.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UINavigationController/UINavigationController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutoLayout/AutoLayout.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ManualLayout/ManualLayout.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Xib/Xib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIGesture/UIGesture.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITouch/UITouch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIScrollView/UIScrollView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITextField/UITextField.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIAlertView&amp;UIActivityIndicatorView/UIAlertView&amp;UIActivityIndicatorView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIStepper&amp;UISegmentedControl/UIStepper&amp;UISegmentedControl.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISlider&amp;UIProgressView/UISlider&amp;UIProgressView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISwitch/UISwitch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSTimer/NSTimer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIViewController/UIViewController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIWindow/UIWindow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIView/UIView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIButton/UIButton.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UILabel/UILabel.xcodeproj">
+   </FileRef>
+</Workspace>

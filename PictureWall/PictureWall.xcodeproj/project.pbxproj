@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543903B41EA67DA300C16FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 543903B31EA67DA300C16FBC /* main.m */; };
+		543903B71EA67DA300C16FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 543903B61EA67DA300C16FBC /* AppDelegate.m */; };
+		543903BD1EA67DA300C16FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543903BB1EA67DA300C16FBC /* Main.storyboard */; };
+		543903BF1EA67DA300C16FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543903BE1EA67DA300C16FBC /* Assets.xcassets */; };
+		543903C21EA67DA300C16FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543903C01EA67DA300C16FBC /* LaunchScreen.storyboard */; };
+		543903CD1EA67F1F00C16FBC /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903CA1EA67F1F00C16FBC /* 0.jpeg */; };
+		543903CE1EA67F1F00C16FBC /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903CB1EA67F1F00C16FBC /* 1.jpeg */; };
+		543903CF1EA67F1F00C16FBC /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903CC1EA67F1F00C16FBC /* 2.jpeg */; };
+		543903D61EA67F4400C16FBC /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903D01EA67F4400C16FBC /* 3.jpeg */; };
+		543903D71EA67F4400C16FBC /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903D11EA67F4400C16FBC /* 4.jpeg */; };
+		543903D81EA67F4400C16FBC /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903D21EA67F4400C16FBC /* 5.jpeg */; };
+		543903D91EA67F4400C16FBC /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903D31EA67F4400C16FBC /* 6.jpeg */; };
+		543903DA1EA67F4400C16FBC /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903D41EA67F4400C16FBC /* 7.jpeg */; };
+		543903DB1EA67F4400C16FBC /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903D51EA67F4400C16FBC /* 8.jpeg */; };
+		543903DE1EA67FAF00C16FBC /* VCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 543903DD1EA67FAF00C16FBC /* VCRoot.m */; };
+		543903E11EA67FC100C16FBC /* VCImageShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 543903E01EA67FC100C16FBC /* VCImageShow.m */; };
+		543903E81EA681B100C16FBC /* 13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903E21EA681B100C16FBC /* 13.jpeg */; };
+		543903E91EA681B100C16FBC /* 14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903E31EA681B100C16FBC /* 14.jpeg */; };
+		543903EA1EA681B100C16FBC /* 12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903E41EA681B100C16FBC /* 12.jpeg */; };
+		543903EB1EA681B100C16FBC /* 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903E51EA681B100C16FBC /* 11.jpeg */; };
+		543903EC1EA681B100C16FBC /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903E61EA681B100C16FBC /* 9.jpeg */; };
+		543903ED1EA681B100C16FBC /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543903E71EA681B100C16FBC /* 10.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		543903AF1EA67DA200C16FBC /* PictureWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543903B31EA67DA300C16FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		543903B51EA67DA300C16FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		543903B61EA67DA300C16FBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		543903BC1EA67DA300C16FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		543903BE1EA67DA300C16FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543903C11EA67DA300C16FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		543903C31EA67DA300C16FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543903CA1EA67F1F00C16FBC /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		543903CB1EA67F1F00C16FBC /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		543903CC1EA67F1F00C16FBC /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		543903D01EA67F4400C16FBC /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		543903D11EA67F4400C16FBC /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		543903D21EA67F4400C16FBC /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		543903D31EA67F4400C16FBC /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		543903D41EA67F4400C16FBC /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		543903D51EA67F4400C16FBC /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		543903DC1EA67FAF00C16FBC /* VCRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRoot.h; sourceTree = "<group>"; };
+		543903DD1EA67FAF00C16FBC /* VCRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRoot.m; sourceTree = "<group>"; };
+		543903DF1EA67FC100C16FBC /* VCImageShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageShow.h; sourceTree = "<group>"; };
+		543903E01EA67FC100C16FBC /* VCImageShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageShow.m; sourceTree = "<group>"; };
+		543903E21EA681B100C16FBC /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpeg; sourceTree = "<group>"; };
+		543903E31EA681B100C16FBC /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpeg; sourceTree = "<group>"; };
+		543903E41EA681B100C16FBC /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = "<group>"; };
+		543903E51EA681B100C16FBC /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
+		543903E61EA681B100C16FBC /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		543903E71EA681B100C16FBC /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543903AC1EA67DA200C16FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543903A61EA67DA200C16FBC = {
+			isa = PBXGroup;
+			children = (
+				543903B11EA67DA200C16FBC /* PictureWall */,
+				543903B01EA67DA200C16FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		543903B01EA67DA200C16FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543903AF1EA67DA200C16FBC /* PictureWall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543903B11EA67DA200C16FBC /* PictureWall */ = {
+			isa = PBXGroup;
+			children = (
+				543903C91EA67EF300C16FBC /* resource */,
+				543903B51EA67DA300C16FBC /* AppDelegate.h */,
+				543903B61EA67DA300C16FBC /* AppDelegate.m */,
+				543903BB1EA67DA300C16FBC /* Main.storyboard */,
+				543903BE1EA67DA300C16FBC /* Assets.xcassets */,
+				543903C01EA67DA300C16FBC /* LaunchScreen.storyboard */,
+				543903C31EA67DA300C16FBC /* Info.plist */,
+				543903B21EA67DA300C16FBC /* Supporting Files */,
+				543903DC1EA67FAF00C16FBC /* VCRoot.h */,
+				543903DD1EA67FAF00C16FBC /* VCRoot.m */,
+				543903DF1EA67FC100C16FBC /* VCImageShow.h */,
+				543903E01EA67FC100C16FBC /* VCImageShow.m */,
+			);
+			path = PictureWall;
+			sourceTree = "<group>";
+		};
+		543903B21EA67DA300C16FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				543903B31EA67DA300C16FBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		543903C91EA67EF300C16FBC /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				543903CA1EA67F1F00C16FBC /* 0.jpeg */,
+				543903CB1EA67F1F00C16FBC /* 1.jpeg */,
+				543903CC1EA67F1F00C16FBC /* 2.jpeg */,
+				543903D01EA67F4400C16FBC /* 3.jpeg */,
+				543903D11EA67F4400C16FBC /* 4.jpeg */,
+				543903D21EA67F4400C16FBC /* 5.jpeg */,
+				543903D31EA67F4400C16FBC /* 6.jpeg */,
+				543903D41EA67F4400C16FBC /* 7.jpeg */,
+				543903D51EA67F4400C16FBC /* 8.jpeg */,
+				543903E21EA681B100C16FBC /* 13.jpeg */,
+				543903E31EA681B100C16FBC /* 14.jpeg */,
+				543903E41EA681B100C16FBC /* 12.jpeg */,
+				543903E51EA681B100C16FBC /* 11.jpeg */,
+				543903E61EA681B100C16FBC /* 9.jpeg */,
+				543903E71EA681B100C16FBC /* 10.jpeg */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543903AE1EA67DA200C16FBC /* PictureWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543903C61EA67DA300C16FBC /* Build configuration list for PBXNativeTarget "PictureWall" */;
+			buildPhases = (
+				543903AB1EA67DA200C16FBC /* Sources */,
+				543903AC1EA67DA200C16FBC /* Frameworks */,
+				543903AD1EA67DA200C16FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureWall;
+			productName = PictureWall;
+			productReference = 543903AF1EA67DA200C16FBC /* PictureWall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543903A71EA67DA200C16FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "YY Inc";
+				TargetAttributes = {
+					543903AE1EA67DA200C16FBC = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 543903AA1EA67DA200C16FBC /* Build configuration list for PBXProject "PictureWall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543903A61EA67DA200C16FBC;
+			productRefGroup = 543903B01EA67DA200C16FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543903AE1EA67DA200C16FBC /* PictureWall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543903AD1EA67DA200C16FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543903D91EA67F4400C16FBC /* 6.jpeg in Resources */,
+				543903CE1EA67F1F00C16FBC /* 1.jpeg in Resources */,
+				543903DB1EA67F4400C16FBC /* 8.jpeg in Resources */,
+				543903EC1EA681B100C16FBC /* 9.jpeg in Resources */,
+				543903C21EA67DA300C16FBC /* LaunchScreen.storyboard in Resources */,
+				543903D81EA67F4400C16FBC /* 5.jpeg in Resources */,
+				543903CF1EA67F1F00C16FBC /* 2.jpeg in Resources */,
+				543903DA1EA67F4400C16FBC /* 7.jpeg in Resources */,
+				543903BF1EA67DA300C16FBC /* Assets.xcassets in Resources */,
+				543903CD1EA67F1F00C16FBC /* 0.jpeg in Resources */,
+				543903E81EA681B100C16FBC /* 13.jpeg in Resources */,
+				543903E91EA681B100C16FBC /* 14.jpeg in Resources */,
+				543903ED1EA681B100C16FBC /* 10.jpeg in Resources */,
+				543903D61EA67F4400C16FBC /* 3.jpeg in Resources */,
+				543903EA1EA681B100C16FBC /* 12.jpeg in Resources */,
+				543903EB1EA681B100C16FBC /* 11.jpeg in Resources */,
+				543903D71EA67F4400C16FBC /* 4.jpeg in Resources */,
+				543903BD1EA67DA300C16FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543903AB1EA67DA200C16FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543903DE1EA67FAF00C16FBC /* VCRoot.m in Sources */,
+				543903E11EA67FC100C16FBC /* VCImageShow.m in Sources */,
+				543903B71EA67DA300C16FBC /* AppDelegate.m in Sources */,
+				543903B41EA67DA300C16FBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		543903BB1EA67DA300C16FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543903BC1EA67DA300C16FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		543903C01EA67DA300C16FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543903C11EA67DA300C16FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		543903C41EA67DA300C16FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		543903C51EA67DA300C16FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543903C71EA67DA300C16FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PictureWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.PictureWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		543903C81EA67DA300C16FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PictureWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.PictureWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543903AA1EA67DA200C16FBC /* Build configuration list for PBXProject "PictureWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543903C41EA67DA300C16FBC /* Debug */,
+				543903C51EA67DA300C16FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543903C61EA67DA300C16FBC /* Build configuration list for PBXNativeTarget "PictureWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543903C71EA67DA300C16FBC /* Debug */,
+				543903C81EA67DA300C16FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543903A71EA67DA200C16FBC /* Project object */;
+}

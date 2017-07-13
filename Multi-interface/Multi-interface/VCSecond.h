@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef void (^SecondBlock)(NSString *name);  //block取别名，并且在参数列表中将需要传递的参数写行参
 
 // 方法一：通过代理多界面传值
 // 定义代理协议，视图控制器二的协议
@@ -26,5 +27,11 @@
 // 通过代理对象实现协议函数，达到代理对象改变本身属性的目的
 // 代理对象一定要实现代理协议
 @property(assign, nonatomic)id<VCSecondDelegate> delegate;
+
+@property(nonatomic, strong) NSString *firstValue;
+
+@property(nonatomic, copy) SecondBlock secondBlock;
+
+- (void)returnTextName:(SecondBlock)block;
 
 @end

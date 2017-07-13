@@ -13,6 +13,7 @@
 		5442EA4E1E9FAC790023EFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5442EA4C1E9FAC790023EFC1 /* Main.storyboard */; };
 		5442EA501E9FAC790023EFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5442EA4F1E9FAC790023EFC1 /* Assets.xcassets */; };
 		5442EA531E9FAC7A0023EFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5442EA511E9FAC7A0023EFC1 /* LaunchScreen.storyboard */; };
+		549CF6321F0F8B8000EEF22D /* NSTimer+KWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CF6311F0F8B8000EEF22D /* NSTimer+KWS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5442EA4F1E9FAC790023EFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5442EA521E9FAC7A0023EFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5442EA541E9FAC7A0023EFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549CF6301F0F8B8000EEF22D /* NSTimer+KWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+KWS.h"; sourceTree = "<group>"; };
+		549CF6311F0F8B8000EEF22D /* NSTimer+KWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+KWS.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		5442EA421E9FAC780023EFC1 /* NSTimer */ = {
 			isa = PBXGroup;
 			children = (
+				549CF6301F0F8B8000EEF22D /* NSTimer+KWS.h */,
+				549CF6311F0F8B8000EEF22D /* NSTimer+KWS.m */,
 				5442EA461E9FAC780023EFC1 /* AppDelegate.h */,
 				5442EA471E9FAC780023EFC1 /* AppDelegate.m */,
 				5442EA491E9FAC790023EFC1 /* ViewController.h */,
@@ -152,6 +157,7 @@
 			files = (
 				5442EA4B1E9FAC790023EFC1 /* ViewController.m in Sources */,
 				5442EA481E9FAC780023EFC1 /* AppDelegate.m in Sources */,
+				549CF6321F0F8B8000EEF22D /* NSTimer+KWS.m in Sources */,
 				5442EA451E9FAC780023EFC1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +317,7 @@
 				5442EA591E9FAC7A0023EFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

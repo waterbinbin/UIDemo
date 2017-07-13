@@ -44,3 +44,4 @@ IOS相关demo积累
 2. UISearchBar&AddressBookUI
 3. UISearchController
 4. NSNotificationCenter
+5. AnimationImagesDemo   // 单独一个xworkspace

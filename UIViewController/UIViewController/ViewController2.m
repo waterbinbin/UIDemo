@@ -40,6 +40,7 @@
     // 使当前的控制器消失
     // P1:是否有动画效果
     // P2:结束后是否调用功能block块操作
+    // 方法一：模态
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

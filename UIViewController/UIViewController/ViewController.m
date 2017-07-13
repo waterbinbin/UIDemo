@@ -59,6 +59,7 @@
     // P1:新的视图控制器
     // P2:使用动画切换效果
     // P3:切换后功能调用，不需要传nil即可
+    // 方法一：模态
     [self presentViewController:vc animated:YES completion:nil];
 }
 

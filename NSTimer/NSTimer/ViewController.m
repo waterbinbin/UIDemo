@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "NSTimer+KWS.h"
+
 @interface ViewController ()
 
 @property(nonatomic, strong) NSTimer *timerView;
@@ -58,7 +60,10 @@
     // P4:定时器函数中的一个参数，无参可以传nil
     // P5:定时器是否重复操作，YES为重复，NO只完成一次调用
     // 返回值为一个新建好的定时器对象
-    _timerView = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTimer:) userInfo:_timerView repeats:NO];
+    // 方法1，原生
+//    _timerView = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTimer:) userInfo:_timerView repeats:NO];
+    // 方法2
+    [self startAnimationTimer];
 }
 
 // 定时器函数，可以将定时器本身作为参数传入
@@ -75,16 +80,39 @@
 // 点击stop按钮
 - (void)pressStop
 {
-    if(_timerView != nil)
-    {
-        // 停止定时器
-        [_timerView invalidate];
-    }
+    // 方法1，原生
+//    if(_timerView != nil)
+//    {
+//        // 停止定时器
+//        [_timerView invalidate];
+//    }
+    // 方法2
+    [self stopAnimationTimer];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)startAnimationTimer
+{
+    _timerView = [NSTimer startWithTimeInterval:1 repeats:NO timeout:^{
+        // 最好tag从100开始
+        UIView* view = [self.view viewWithTag:101];
+        
+        view.frame = CGRectMake(view.frame.origin.x + 1, view.frame.origin.y + 1, 80, 80);
+        NSLog(@"start");
+    }];
+    [_timerView fire];
+}
+
+- (void)stopAnimationTimer {
+    if (_timerView) {
+        NSLog(@"stop");
+        [_timerView invalidate];
+        _timerView = nil;
+    }
 }
 
 

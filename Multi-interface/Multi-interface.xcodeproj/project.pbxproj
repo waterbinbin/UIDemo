@@ -15,6 +15,7 @@
 		5406692F1EAA733B00266B86 /* VCFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 5406692E1EAA733B00266B86 /* VCFirst.m */; };
 		540669321EAA734900266B86 /* VCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 540669311EAA734900266B86 /* VCSecond.m */; };
 		540669351EAA735900266B86 /* VCThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 540669341EAA735900266B86 /* VCThird.m */; };
+		549CF6381F1779D300EEF22D /* AppStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CF6371F1779D200EEF22D /* AppStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		540669311EAA734900266B86 /* VCSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSecond.m; sourceTree = "<group>"; };
 		540669331EAA735900266B86 /* VCThird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCThird.h; sourceTree = "<group>"; };
 		540669341EAA735900266B86 /* VCThird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCThird.m; sourceTree = "<group>"; };
+		549CF6361F1779D200EEF22D /* AppStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStatus.h; sourceTree = "<group>"; };
+		549CF6371F1779D200EEF22D /* AppStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStatus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				540669311EAA734900266B86 /* VCSecond.m */,
 				540669331EAA735900266B86 /* VCThird.h */,
 				540669341EAA735900266B86 /* VCThird.m */,
+				549CF6361F1779D200EEF22D /* AppStatus.h */,
+				549CF6371F1779D200EEF22D /* AppStatus.m */,
 			);
 			path = "Multi-interface";
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				540669351EAA735900266B86 /* VCThird.m in Sources */,
 				5406692F1EAA733B00266B86 /* VCFirst.m in Sources */,
 				5406691B1EAA72F000266B86 /* AppDelegate.m in Sources */,
+				549CF6381F1779D300EEF22D /* AppStatus.m in Sources */,
 				540669321EAA734900266B86 /* VCSecond.m in Sources */,
 				540669181EAA72F000266B86 /* main.m in Sources */,
 			);

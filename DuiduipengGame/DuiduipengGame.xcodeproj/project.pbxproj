@@ -228,6 +228,7 @@
 				TargetAttributes = {
 					544D6B3B1ECAABC800C43BA7 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HDH67HLL2S;
 						ProvisioningStyle = Automatic;
 					};
 					544D6B541ECAABC800C43BA7 = {
@@ -454,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HDH67HLL2S;
 				INFOPLIST_FILE = DuiduipengGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.DuiduipengGame;
@@ -465,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HDH67HLL2S;
 				INFOPLIST_FILE = DuiduipengGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.DuiduipengGame;

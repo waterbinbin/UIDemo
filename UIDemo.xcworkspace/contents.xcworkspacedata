@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ScreenAndAudioRecordDemo/ScreenAndAudioRecordDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:readme.txt">
    </FileRef>
    <FileRef

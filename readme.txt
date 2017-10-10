@@ -45,3 +45,4 @@ IOS相关demo积累
 3. UISearchController
 4. NSNotificationCenter
 5. AnimationImagesDemo   // 单独一个xworkspace
+6. ScreenAndAudioRecordDemo  // app录屏并将录屏和音频合成一个视频

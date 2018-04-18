@@ -41,7 +41,7 @@
     //[videoAsset release];
     
     //保存混合后的文件的过程
-    NSString* videoName = @"export2.mov";
+    NSString* videoName = @"export2.mp4";
     NSString *exportPath = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:videoName];
     NSURL    *exportUrl = [NSURL fileURLWithPath:exportPath];
     

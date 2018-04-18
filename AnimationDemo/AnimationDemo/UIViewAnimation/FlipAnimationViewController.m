@@ -1,0 +1,195 @@
+//
+//  FlipAnimationViewController.m
+//  AnimationDemo
+//
+//  Created by wangfubin on 2018/1/3.
+//  Copyright © 2018年 wangfubin. All rights reserved.
+//
+
+#import "FlipAnimationViewController.h"
+
+@interface FlipAnimationViewController ()
+
+// 积分 view
+@property (nonatomic, strong) UIImageView *integralView;
+// 卡券 view
+@property (nonatomic, strong) UIImageView *cartCenterView;
+// 签到 view
+@property (nonatomic, strong) UIImageView *signInView;
+
+@end
+
+@implementation FlipAnimationViewController
+
+#pragma mark -- Life Circle
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    [self p_setupNavigationController];
+    [self p_setupUI];
+    [self p_setupMasonry];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark -- Private
+
+- (void)p_setupNavigationController
+{
+    self.title = @"Flip转场动画";
+}
+
+- (void)p_setupUI
+{
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:self.signInView];
+    [self.view addSubview:self.cartCenterView];
+    [self.view addSubview:self.integralView];
+}
+
+- (void)p_setupMasonry
+{
+    [self.signInView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view);
+        make.top.mas_equalTo(120);
+        make.width.mas_equalTo(self.view.frame.size.width - 120);
+        make.height.mas_equalTo(100);
+    }];
+    
+    [self.cartCenterView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.signInView);
+        make.top.equalTo(self.signInView.mas_bottom).with.offset(10);
+        make.width.mas_equalTo((self.view.frame.size.width - 120) / 2);
+        make.height.mas_equalTo(60);
+    }];
+    
+    [self.integralView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.cartCenterView.mas_right);
+        make.top.equalTo(self.signInView.mas_bottom).with.offset(10);
+        make.width.mas_equalTo((self.view.frame.size.width - 120) / 2);
+        make.height.mas_equalTo(60);
+    }];
+}
+
+#pragma mark -- LazyLoading
+
+// 签到 view
+- (UIImageView *)signInView
+{
+    if (!_signInView)
+    {
+        _signInView = [[UIImageView alloc] init];
+        _signInView.clipsToBounds = YES;
+        _signInView.contentMode = UIViewContentModeScaleAspectFill;
+        _signInView.image = [UIImage imageNamed:@"default_user_icon.png"];
+    }
+    return _signInView;
+}
+
+// 卡券 view
+- (UIImageView *)cartCenterView
+{
+    if (!_cartCenterView)
+    {
+        _cartCenterView = [[UIImageView alloc] init];
+        _cartCenterView.contentMode = UIViewContentModeScaleAspectFill;
+        _cartCenterView.clipsToBounds = YES;
+        _cartCenterView.image = [UIImage imageNamed:@"icon_gouwuche.png"];
+    }
+    return _cartCenterView;
+}
+
+// 积分
+- (UIImageView *)integralView {
+    if (!_integralView) {
+        _integralView = [[UIImageView alloc] init];
+        _integralView.clipsToBounds = YES;
+        _integralView.contentMode = UIViewContentModeScaleAspectFill;
+        _integralView.image = [UIImage imageNamed:@"home_dingdan.png"];
+    }
+    return _integralView;
+}
+
+// 转场动画 (flip) (signInView)
+- (void)p_filpSignViewAnimation
+{
+    // 第一个参数: 动画标识
+    // 第二个参数: 附加参数,在设置代理情况下，此参数将发送到setAnimationWillStartSelector和setAnimationDidStopSelector所指定的方法，大部分情况，设置为nil.
+    [UIView beginAnimations:@"FlipAnimation" context:nil];
+    
+    // 动画持续时间
+    [UIView setAnimationDuration:1.0];
+    
+    // 动画的代理对象
+    [UIView setAnimationDelegate:self];
+    
+    // 设置动画将开始时代理对象执行的SEL
+    [UIView setAnimationWillStartSelector:@selector(startAni:)];
+    // 设置动画将结束时代理对象执行的SEL
+    [UIView setAnimationDidStopSelector:@selector(stopAni:)];
+    
+    // 设置动画的重复次数
+    [UIView setAnimationRepeatCount:1.0];
+    
+    // 设置动画的曲线
+    // UIViewAnimationCurve的枚举值如下：
+    // UIViewAnimationCurveEaseInOut,         // 慢进慢出（默认值）
+    // UIViewAnimationCurveEaseIn,            // 慢进
+    // UIViewAnimationCurveEaseOut,           // 慢出
+    // UIViewAnimationCurveLinear             // 匀速
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    
+    // 设置视图的过渡效果
+    // 第一个参数：UIViewAnimationTransition的枚举值如下
+    // UIViewAnimationTransitionNone,              //不使用动画
+    // UIViewAnimationTransitionFlipFromLeft,      //从左向右旋转翻页
+    // UIViewAnimationTransitionFlipFromRight,     //从右向左旋转翻页
+    // UIViewAnimationTransitionCurlUp,            //从下往上卷曲翻页
+    // UIViewAnimationTransitionCurlDown,          //从上往下卷曲翻页
+    // 第二个参数：需要过渡效果的View
+    // 第三个参数：是否使用视图缓存，YES：视图在开始和结束时渲染一次；NO：视图在每一帧都渲染
+    [UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self.signInView cache:YES];
+    
+    // 设置是否从当前状态开始播放动画
+    // 假设上一个动画正在播放，且尚未播放完毕，我们将要进行一个新的动画：
+    // 当为YES时：动画将从上一个动画所在的状态开始播放
+    // 当为NO时：动画将从上一个动画所指定的最终状态开始播放（此时上一个动画马上结束）
+    [UIView setAnimationBeginsFromCurrentState:YES];
+    
+    // 设置动画是否继续执行相反的动画
+    [UIView setAnimationRepeatAutoreverses:NO];
+    
+    // 是否禁用动画效果（对象属性依然会被改变，只是没有动画效果）
+    [UIView setAnimationsEnabled:YES];
+    
+    // 动画变化
+    self.signInView.image = [UIImage imageNamed:@"serviceActivity.png"];
+    
+    // 结束动画标记
+    [UIView commitAnimations];
+}
+
+#pragma mark -- Event Response
+
+// 开始 动画
+- (void)startAni:(NSString *)aniId
+{
+    NSLog(@"%@ start",aniId);
+}
+
+// 结束 动画
+- (void)stopAni:(NSString *)aniId
+{
+    NSLog(@"%@ stop",aniId);
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self p_filpSignViewAnimation];
+}
+
+@end

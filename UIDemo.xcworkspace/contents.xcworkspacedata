@@ -2,10 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CycleProgress/CycleProgress.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ScreenAndAudioRecordDemo/ScreenAndAudioRecordDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:readme.txt">
+   </FileRef>
+   <FileRef
+      location = "group:BlockDemo/BlockDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:DuiduipengGame/DuiduipengGame.xcodeproj">

@@ -137,8 +137,8 @@
     imageView.center = self.view.center;
     //创建一个数组，数组中按顺序添加要播放的图片（图片为静态的图片）
     NSMutableArray *imgArray = [NSMutableArray array];
-    for (int i=1; i<50; i+=2) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"88 500X50000%02d.png",i]];
+    for (int i=0; i<24; i++) {
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"bye.png",i]];
         [imgArray addObject:image];
     }
     //把存有UIImage的数组赋给动画图片数组

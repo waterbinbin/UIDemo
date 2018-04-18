@@ -12,7 +12,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 
-NSString *kFilePath = @"tmp/output.mov";
+NSString *kFilePath = @"tmp/output.mp4";
 
 @interface HooyaScreenRecorder()
 

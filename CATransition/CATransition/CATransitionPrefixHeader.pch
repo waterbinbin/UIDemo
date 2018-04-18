@@ -1,0 +1,19 @@
+//
+//  CATransitionPrefixHeader.pch
+//  CATransition
+//
+//  Created by wangfubin on 2017/12/29.
+//  Copyright © 2017年 wangfubin. All rights reserved.
+//
+
+// 配置参考博客：https://www.jianshu.com/p/e6e0e3bbbf38
+
+#ifndef CATransitionPrefixHeader_pch
+#define CATransitionPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Masonry.h"
+
+#endif /* CATransitionPrefixHeader_pch */

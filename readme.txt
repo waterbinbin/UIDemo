@@ -46,3 +46,8 @@ IOS相关demo积累
 4. NSNotificationCenter
 5. AnimationImagesDemo   // 单独一个xworkspace
 6. ScreenAndAudioRecordDemo  // app录屏并将录屏和音频合成一个视频
+7. BlockDemo             // 用块引用其所属对象时不要出现保留环
+8. CycleProgress         // 环形进度条
+9. CATransition          // 转场动画
+10. DownLoadAndUnZip     // 下载和解压
+11. GPUImageDemo         // 参考落影大神demo

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47EBDE8DBA5F8E5A887273E8 /* libPods-GPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 638168419AC61739DE331433 /* libPods-GPUImageDemo.a */; };
 		543C9DC5205F9C36007144F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9DC4205F9C36007144F3 /* AppDelegate.m */; };
 		543C9DC8205F9C36007144F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9DC7205F9C36007144F3 /* ViewController.m */; };
 		543C9DCB205F9C36007144F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543C9DC9205F9C36007144F3 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		543C9DD3205F9C36007144F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9DD2205F9C36007144F3 /* main.m */; };
 		543C9DDD205F9C36007144F3 /* GPUImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9DDC205F9C36007144F3 /* GPUImageDemoTests.m */; };
 		543C9DE8205F9C36007144F3 /* GPUImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9DE7205F9C36007144F3 /* GPUImageDemoUITests.m */; };
+		543C9DFB205FE67D007144F3 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9DFA205FE67D007144F3 /* GPUImageBeautifyFilter.m */; };
+		543C9E0520620C8F007144F3 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 543C9E0420620C8F007144F3 /* 2.jpeg */; };
+		543C9E0720620E37007144F3 /* abc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 543C9E0620620C9D007144F3 /* abc.mp4 */; };
+		543C9E0A20623928007144F3 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = 543C9E0920623928007144F3 /* watermark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		543C9DE3205F9C36007144F3 /* GPUImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		543C9DE7205F9C36007144F3 /* GPUImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageDemoUITests.m; sourceTree = "<group>"; };
 		543C9DE9205F9C36007144F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543C9DF9205FE67D007144F3 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		543C9DFA205FE67D007144F3 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		543C9E0420620C8F007144F3 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		543C9E0620620C9D007144F3 /* abc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.mp4; sourceTree = "<group>"; };
+		543C9E0920623928007144F3 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
+		5B70F3FAEFE0B0A73450581B /* Pods-GPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		638168419AC61739DE331433 /* libPods-GPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB21FFDBA1E265AB286525AB /* Pods-GPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47EBDE8DBA5F8E5A887273E8 /* libPods-GPUImageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224078B8A5E766C781BFB642 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B70F3FAEFE0B0A73450581B /* Pods-GPUImageDemo.debug.xcconfig */,
+				DB21FFDBA1E265AB286525AB /* Pods-GPUImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		543C9DB7205F9C36007144F3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				543C9DDB205F9C36007144F3 /* GPUImageDemoTests */,
 				543C9DE6205F9C36007144F3 /* GPUImageDemoUITests */,
 				543C9DC1205F9C36007144F3 /* Products */,
+				224078B8A5E766C781BFB642 /* Pods */,
+				70D14C4DDA8DD10E2B0F268A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +130,16 @@
 				543C9DC4205F9C36007144F3 /* AppDelegate.m */,
 				543C9DC6205F9C36007144F3 /* ViewController.h */,
 				543C9DC7205F9C36007144F3 /* ViewController.m */,
+				543C9DF9205FE67D007144F3 /* GPUImageBeautifyFilter.h */,
+				543C9DFA205FE67D007144F3 /* GPUImageBeautifyFilter.m */,
 				543C9DC9205F9C36007144F3 /* Main.storyboard */,
 				543C9DCC205F9C36007144F3 /* Assets.xcassets */,
 				543C9DCE205F9C36007144F3 /* LaunchScreen.storyboard */,
 				543C9DD1205F9C36007144F3 /* Info.plist */,
 				543C9DD2205F9C36007144F3 /* main.m */,
+				543C9E0420620C8F007144F3 /* 2.jpeg */,
+				543C9E0620620C9D007144F3 /* abc.mp4 */,
+				543C9E0920623928007144F3 /* watermark.png */,
 			);
 			path = GPUImageDemo;
 			sourceTree = "<group>";
@@ -132,6 +162,14 @@
 			path = GPUImageDemoUITests;
 			sourceTree = "<group>";
 		};
+		70D14C4DDA8DD10E2B0F268A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638168419AC61739DE331433 /* libPods-GPUImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 543C9DEC205F9C36007144F3 /* Build configuration list for PBXNativeTarget "GPUImageDemo" */;
 			buildPhases = (
+				FDCF4FB720E576E2E824F1E0 /* [CP] Check Pods Manifest.lock */,
 				543C9DBC205F9C36007144F3 /* Sources */,
 				543C9DBD205F9C36007144F3 /* Frameworks */,
 				543C9DBE205F9C36007144F3 /* Resources */,
+				7ECB742D3B99899A994F6200 /* [CP] Embed Pods Frameworks */,
+				33B84A3FD933946FA6E7B72D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,8 +279,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543C9E0720620E37007144F3 /* abc.mp4 in Resources */,
+				543C9E0520620C8F007144F3 /* 2.jpeg in Resources */,
 				543C9DD0205F9C36007144F3 /* LaunchScreen.storyboard in Resources */,
 				543C9DCD205F9C36007144F3 /* Assets.xcassets in Resources */,
+				543C9E0A20623928007144F3 /* watermark.png in Resources */,
 				543C9DCB205F9C36007144F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,12 +304,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33B84A3FD933946FA6E7B72D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ECB742D3B99899A994F6200 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCF4FB720E576E2E824F1E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		543C9DBC205F9C36007144F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				543C9DC8205F9C36007144F3 /* ViewController.m in Sources */,
+				543C9DFB205FE67D007144F3 /* GPUImageBeautifyFilter.m in Sources */,
 				543C9DD3205F9C36007144F3 /* main.m in Sources */,
 				543C9DC5205F9C36007144F3 /* AppDelegate.m in Sources */,
 			);
@@ -428,9 +531,11 @@
 		};
 		543C9DED205F9C36007144F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B70F3FAEFE0B0A73450581B /* Pods-GPUImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDH67HLL2S;
 				INFOPLIST_FILE = GPUImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huya.GPUImageDemo;
@@ -441,9 +546,11 @@
 		};
 		543C9DEE205F9C36007144F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB21FFDBA1E265AB286525AB /* Pods-GPUImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDH67HLL2S;
 				INFOPLIST_FILE = GPUImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huya.GPUImageDemo;
